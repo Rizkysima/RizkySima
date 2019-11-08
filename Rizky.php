@@ -35,14 +35,14 @@ $sc = "script.txt";
 $file = fopen("convert.txt","w");
 fwrite($file,"");
 fclose($file);
-$jso = "convert.txt";
+$rizky = "convert.txt";
 if (!file_exists($sc)) {
 	echo "\e[0;31m[!] Script Gagal Dibuat Lae\n";
 } else {	
 echo "\e[1;33m[~] Convert Your Script....\n";
 sleep(3);
 convert($sc,$jso);    
-echo "\e[1;96m[Success Convert\e[1;96m] \e[0;92mSaved :$jso\n";
+echo "\e[1;96m[Success Convert\e[1;96m] \e[0;92mSaved :$rizky\n";
 }
 sleep (2);
 function upload($data,$filename){
@@ -92,17 +92,17 @@ $nama = ngocok(8);
 
 if(!$file = file_get_contents($jso))
 {
-	echo "\e[0;31m[-] Gagal membuka $jso\n";
+	echo "\e[0;31m[-] Gagal membuka $risky\n";
 	exit();
 }
 else
 {
     echo "\e[1;33m[+] Please Wait....\n";
     sleep (2);
-    echo "\e[1;36m[~] Upload $jso\n";
+    echo "\e[1;36m[~] Upload $rizky\n";
     echo "Uploading....\n";
     sleep (3);
 	$convertjso = $file;
-	upload($nama,$convertjso);
+	upload($nama,$convertrizky);
 }
  ?>
